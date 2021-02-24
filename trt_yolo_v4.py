@@ -21,7 +21,7 @@ from sensor_msgs.msg import Image
 from cv_bridge import CvBridge, CvBridgeError
 
 # CONSTANTS FOR CAPSTONE -- BAD PRACTICE
-VIDEO_TOPIC = "/fsds/camera/cam1"
+VIDEO_TOPIC = "/fsds/camera/cam5"
 
 class yolov4(object):
     def __init__(self):
